@@ -390,6 +390,7 @@ void loop()
             digitalWrite (ledPinGREEN, HIGH);	// turn off the GREEN LED
         }
 
+
         /* Reset connection timer every 20 seconds */
         if ((totalInterruptCounter%20)==0)
         {
