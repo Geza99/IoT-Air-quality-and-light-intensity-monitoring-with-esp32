@@ -103,15 +103,14 @@
 /* global variables */
 /**********************************************************************************************************************/
 /* connection parameters */
-const char* ssid = "BTIA_MGD4CLJ";  //TP-Link_8744
-const char* password = "E2mUwdihPmDr"; //90108822
-//BTIA_3rd_Floor
-//RobertBosch0100
+const char* ssid = "TP-Link_8744";  //my home network 
+const char* password = "90108822"; //my home password
+
 
 /*mqtt global variables*/
 
 const int mqttPort =  1883; // mqtt port HiveMQ
-const char* mqtt_server = "broker.hivemq.com"; 
+const char* mqtt_server = "broker.hivemq.com"; //broker page
 
 /*mqtt definitions*/
 
